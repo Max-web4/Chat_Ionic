@@ -4,9 +4,9 @@ const store = createStore({
     state() {
         return {
             memories: [
-                {id: "m1", image: "https://commons.wikimedia.org/w/index.php?search=mountain&title=Special%3ASearch&go=Go&ns0=1&ns6=1&ns12=1&ns14=1&ns100=1&ns106=1#/media/File:%D0%9D%D1%96%D0%B6%D0%BD%D0%B8%D0%B9_%D1%80%D0%B0%D0%BD%D0%BA%D0%BE%D0%B2%D0%B8%D0%B9_%D1%81%D0%B2%D1%96%D1%82%D0%BB%D0%BE.jpg", title: "Mountains", description: "Amazing trip",},
-                {id: "m2", image: "https://unsplash.com/photos/LQ_SoWQDk84", title: "Ocean", description: "Power of elements",},
-                {id: "m3", image: "../img/table_with_food_top_view_900x700.jpg", title: "Food", description: "So tasty",}
+                {id: "m1", image: "https://ec.europa.eu/jrc/sites/jrcsh/files/styles/normal-responsive/public/fotolia-92027264european-day-forest-green-forest.jpg?itok=biCWJPQQ", title: "Mountains", description: "Amazing trip",},
+                {id: "m2", image: "https://images.theconversation.com/files/223729/original/file-20180619-126566-1jxjod2.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop", title: "Ocean", description: "Power of elements",},
+                {id: "m3", image: "https://www.study.ru/uploads/server/u9W0t6PiqVGBmMAt.jpg", title: "Food", description: "So tasty",}
                ]
         };
     },
