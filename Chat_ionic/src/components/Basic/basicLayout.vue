@@ -7,6 +7,12 @@
             <ion-back-button :default-href="pageDefaultBackLink"></ion-back-button>
             <ion-title>{{ pageTitle }}</ion-title>
             </ion-buttons>
+            <slot name="end">
+            <ion-buttons >
+                <!-- <template v-slot:end></template> -->
+                <slot name="actions-end"></slot>
+            </ion-buttons>
+            </slot>
         </ion-toolbar>
     </ion-header>
     <ion-content>
