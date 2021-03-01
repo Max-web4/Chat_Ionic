@@ -1,8 +1,8 @@
 <template>
-<basic-layout pageTitle="All memories">
-        <template v-slot:actions-end>
-            <ion-button router-link="/memories/add">
-                <slot name="icon-only">
+<basic-layout pageTitle="All memories" >
+        <template v-slot:actions-end >
+            <ion-button  router-link="/memories/add" >
+                <slot name="icon-only" >
                 <ion-icon  :icon="add"></ion-icon>
                 </slot>
             </ion-button>

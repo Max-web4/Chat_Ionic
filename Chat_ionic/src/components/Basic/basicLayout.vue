@@ -8,7 +8,7 @@
             <ion-title>{{ pageTitle }}</ion-title>
             </ion-buttons>
             <slot name="end">
-            <ion-buttons >
+            <ion-buttons  slot="end">
                 <!-- <template v-slot:end></template> -->
                 <slot name="actions-end"></slot>
             </ion-buttons>
